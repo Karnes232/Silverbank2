@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "fslightbox-react": "^1.6.2-2",
     "gatsby": "^4.24.0",
     "gatsby-plugin-google-analytics": "^4.24.0",
     "gatsby-plugin-image": "^2.24.0",
@@ -28,6 +29,8 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
+    "react-id-generator": "^3.0.2",
+    "react-photo-album": "^1.16.1",
     "sass": "^1.55.0"
   }
 }
