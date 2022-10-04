@@ -75,7 +75,7 @@ const Contact = () => {
                   <option value="3 Night">Three Night Tour</option>
                 </select>
               </div>
-              <div class="form__group">
+              <div class="form__group form__button">
                 <button
                   type="submit"
                   class="btn btn--green"
