@@ -25,7 +25,7 @@ const IndexPage = () => {
           content="6C1VjAaC2hAZxjbi7ydNSMBeNrN1JlKtIcJDxum0jrs"
         />
       </Helment>
-      <SEO title="Whale Watching" />
+      <SEO title="Whale Watching | Snorkeling Humpback Whales | Silver Bank Dominican Republic" />
       <Navbar />
       <Header />
       <Suspense fallback={<div>Loading...</div>}>
