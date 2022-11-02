@@ -61,7 +61,7 @@ const About = () => {
             A chance to be face to face with a humpback whale
           </h3>
           <p class="paragraph">
-            During the months of January through April, we make weekly trips to
+            During the months of January through March, we make weekly trips to
             the Silver Bank. This area is legendary for its close in water
             encounters with the humpback whales. Swimming with whales is an
             activity for the whole family, it's a trip that will leave you
