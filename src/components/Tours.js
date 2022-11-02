@@ -17,7 +17,7 @@ const Tours = () => {
                 </ul>
                 <p class="card__details-text u-margin-bottom-small">
                   Each trip is an all-inclusive 2 night experience. You will
-                  board the boat in Sousa, Dominican Republic.
+                  board the boat in Sosua, Dominican Republic.
                 </p>
               </div>
             </div>
@@ -55,7 +55,7 @@ const Tours = () => {
                 </ul>
                 <p class="card__details-text u-margin-bottom-small">
                   Each trip is an all-inclusive 3 night experience. You will
-                  board the boat in Sousa, Dominican Republic.
+                  board the boat in Sosua, Dominican Republic.
                 </p>
               </div>
             </div>
