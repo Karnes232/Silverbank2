@@ -19,9 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "G-HXM7FTQ84H",
-        ],
+        trackingIds: ["G-HXM7FTQ84H"],
         gtagConfig: {
           optimize_id: "OPT_CONTAINER_ID",
           anonymize_ip: true,

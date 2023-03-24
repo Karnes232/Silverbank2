@@ -88,8 +88,20 @@ const Navbar = () => {
               onClick={toggleNav}
               onKeyDown={toggleNav}
             >
+              <a href="/travel-information" className="navigation__link">
+                <span>05</span>Travel Information
+              </a>
+            </button>
+          </li>
+          <li>
+            {" "}
+            <button
+              className="navigation__item"
+              onClick={toggleNav}
+              onKeyDown={toggleNav}
+            >
               <a href="/#contact" className="navigation__link">
-                <span>05</span>Contact Us
+                <span>06</span>Contact Us
               </a>
             </button>
           </li>

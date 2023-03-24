@@ -8,7 +8,7 @@ const Tours = () => {
           <div class="card">
             <div class="card__side card__side--front">
               <div class="card__picture card__picture--1">&nbsp;</div>
-              
+
               <div class="card__details">
                 <ul>
                   <li>2 Nights</li>
@@ -46,7 +46,7 @@ const Tours = () => {
           <div class="card">
             <div class="card__side card__side--front">
               <div class="card__picture card__picture--2">&nbsp;</div>
-              
+
               <div class="card__details">
                 <ul>
                   <li>3 Nights</li>
