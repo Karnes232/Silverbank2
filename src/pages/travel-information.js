@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 import SEO from "../components/seo"
 import TravelInformation from "../components/TravelInformation"
 import TravelInfoVideo from "../components/TravelInfoVideo"
+import "../scss/main.scss"
 
 const travelInformation = () => {
   return (
