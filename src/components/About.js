@@ -9,17 +9,17 @@ import image6 from "../images/image6-desk.webp"
 
 const About = () => {
   return (
-    <section id="about" class="section-about">
+    <section id="about" className="section-about">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary">The chance of a lifetime.</h2>
+        <h2 className="heading-secondary">The chance of a lifetime.</h2>
       </div>
 
-      <div class="row">
-        <div class="col-1-of-2">
-          <h3 class="heading-tertiary u-margin-bottom-small">
+      <div className="row">
+        <div className="col-1-of-2">
+          <h3 className="heading-tertiary u-margin-bottom-small">
             The Silver Bank
           </h3>
-          <p class="paragraph">
+          <p className="paragraph">
             Located approximately 90 kilometers north of the Dominican Republic
             is the Sanctuary for the Marine Mammals of the Dominican Republic.
             Every year between the months of January and April, the North
@@ -28,39 +28,39 @@ const About = () => {
             over 3,000 pass through the Silver Bank each winter.
           </p>
 
-          <h3 class="heading-tertiary u-margin-bottom-small">
+          <h3 className="heading-tertiary u-margin-bottom-small">
             Live adventures like you never have before
           </h3>
-          <p class="paragraph">
+          <p className="paragraph">
             Well being able to see these beautiful mammals on the surface from
             the boat will thrill and excite every visitor, its the opportunity
             to swim next to them is such a rare chance that very few places in
             the world permit.
           </p>
         </div>
-        <div class="col-1-of-2">
+        <div className="col-1-of-2">
           <Composition image1={image1} image2={image2} image3={image3} />
         </div>
       </div>
-      <div class="row">
-        <div class="col-1-of-2">
+      <div className="row">
+        <div className="col-1-of-2">
           <Composition image1={image4} image2={image5} image3={image6} />
         </div>
-        <div class="col-1-of-2">
-          <h3 class="heading-tertiary u-margin-bottom-small">
+        <div className="col-1-of-2">
+          <h3 className="heading-tertiary u-margin-bottom-small">
             Snorkeling with humpback whales
           </h3>
-          <p class="paragraph">
+          <p className="paragraph">
             The in water encounters with the humpback whales are always a
             passive approach. Well we are in the water we simply just float and
             watch, allowing the curiosity of the whale to bring them to us. We
             have to earn their trust and remember that we are just visitors.
           </p>
 
-          <h3 class="heading-tertiary u-margin-bottom-small">
+          <h3 className="heading-tertiary u-margin-bottom-small">
             A chance to be face to face with a humpback whale
           </h3>
-          <p class="paragraph">
+          <p className="paragraph">
             During the months of January through March, we make weekly trips to
             the Silver Bank. This area is legendary for its close in water
             encounters with the humpback whales. Swimming with whales is an
@@ -68,7 +68,7 @@ const About = () => {
             talking about it for years to come.
           </p>
 
-          <a href="#tours" class="btn-text">
+          <a href="#tours" className="btn-text">
             Learn more &rarr;
           </a>
         </div>

@@ -6,24 +6,24 @@ import image3 from "../images/boat4-desk.webp"
 
 const BoatInfo = () => {
   return (
-    <div class="row">
-      <div class="col-1-of-2">
-        <h3 class="heading-tertiary u-margin-bottom-small">On Board</h3>
-        <p class="paragraph">
+    <div className="row">
+      <div className="col-1-of-2">
+        <h3 className="heading-tertiary u-margin-bottom-small">On Board</h3>
+        <p className="paragraph">
           Blue Sky offers guests a spacious open layout, with a/c for each of
           the 4 guest rooms. Accommodations include 2 cabins with queen beds,
           and 2 cabins with double and single berth.
         </p>
 
-        <h3 class="heading-tertiary u-margin-bottom-small">
+        <h3 className="heading-tertiary u-margin-bottom-small">
           Smaller more personalized service
         </h3>
-        <p class="paragraph">
+        <p className="paragraph">
           Here is your chance to join us in a small group of upto a maximum of
           10 clients per trip.
         </p>
       </div>
-      <div class="col-1-of-2">
+      <div className="col-1-of-2">
         <Composition image1={image1} image2={image2} image3={image3} />
       </div>
     </div>
