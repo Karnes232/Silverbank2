@@ -36,6 +36,12 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
     {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        precachePages: ["/*", "/travel-information/*", "/gallery/*"],
+      },
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.webp",
