@@ -34,10 +34,17 @@ module.exports = {
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.webp",
+        name: `Silverbank Whales`,
+        short_name: `Silver Bank`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#1f2937`,
+        display: `standalone`,
       },
     },
     "gatsby-plugin-sharp",
