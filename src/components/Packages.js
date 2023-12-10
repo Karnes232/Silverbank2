@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react"
-import video from "../images/grandbay.mp4"
+import React, { useEffect, useState } from "react";
+import video from "../images/grandbay.mp4";
 
-import videoSmall from "../images/grandbay-small.mp4"
+import videoSmall from "../images/grandbay-small.mp4";
 
 const Packages = () => {
-  const [width, setWidth] = useState()
+  const [width, setWidth] = useState();
   useEffect(() => {
-    setWidth(window.innerWidth)
-  }, [])
-  console.log(width)
+    setWidth(window.innerWidth);
+  }, []);
   return (
     <section className="section-package u-margin-bottom-medium" id="tours">
       <div className="bg-video">
@@ -22,7 +21,7 @@ const Packages = () => {
         </video>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Packages
+export default Packages;

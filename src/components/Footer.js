@@ -1,5 +1,5 @@
-import React from "react"
-import logo from "../images/icon.webp"
+import React from "react";
+import logo from "../images/icon.webp";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -30,12 +30,19 @@ const Footer = () => {
         </div>
         <div className="col-1-of-2">
           <p className="footer__copyright">
-            &copy; {new Date().getFullYear()} Grand Bay of the Sea
+            &copy; {new Date().getFullYear()}{" "}
+            <a
+              href="https://grandbay-puntacana.com/"
+              className="footer__copyright__companyLink"
+              target="_blank"
+            >
+              Grand Bay of the Sea
+            </a>
           </p>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

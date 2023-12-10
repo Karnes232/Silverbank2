@@ -1,10 +1,10 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 const Navbar = () => {
-  const [isOpen, setNav] = useState(false)
+  const [isOpen, setNav] = useState(false);
   const toggleNav = () => {
-    setNav(isOpen => !isOpen)
-  }
+    setNav((isOpen) => !isOpen);
+  };
 
   return (
     <div className="navigation">
@@ -108,7 +108,7 @@ const Navbar = () => {
         </ul>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

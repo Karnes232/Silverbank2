@@ -63,5 +63,15 @@
         padding-top: 2rem;
         width: 90%;
         text-align: center;
+
+        &__companyLink:link {
+            text-decoration: none;
+            color: $color-grey-light-1;
+        }
+
+        &__companyLink:visited {
+            text-decoration: none;
+            color: $color-grey-light-1;
+          }
     }
 }

@@ -1,12 +1,12 @@
-import React from "react"
-import Composition from "./Composition"
-import image1 from "../images/image1-desk.webp"
-import image2 from "../images/image2-desk.webp"
-import image3 from "../images/image3-desk.webp"
-import image4 from "../images/image4-desk.webp"
-import image5 from "../images/image5-desk.webp"
-import image6 from "../images/image6-desk.webp"
-import docIcon from "../images/icons8-papers-64.png"
+import React from "react";
+import Composition from "./Composition";
+import image1 from "../images/image1-desk.webp";
+import image2 from "../images/image2-desk.webp";
+import image3 from "../images/image3-desk.webp";
+import image4 from "../images/image4-desk.webp";
+import image5 from "../images/image5-desk.webp";
+import image6 from "../images/image6-desk.webp";
+import docIcon from "../images/icons8-papers-64.png";
 
 const TravelInformation = () => {
   return (
@@ -126,7 +126,7 @@ const TravelInformation = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TravelInformation
+export default TravelInformation;

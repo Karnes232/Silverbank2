@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Silverbank whales`,
-    description: `The chance of a lifetime to be able to swim in warm tropical waters and be face to face with these beautiful humpback whales.`,
+    description: `Experience the chance of a lifetime to swim with beautiful humpback whales in the warm tropical waters of the Silver Bank. Book your adventure now.`,
     keywords: `whale watching, humpback whales, snorkeling with whales, whale watching dominican republic`,
     url: `https://www.silverbankwhales.com/`,
     siteUrl: `https://www.silverbankwhales.com/`,
@@ -51,4 +51,4 @@ module.exports = {
       __key: "images",
     },
   ],
-}
+};

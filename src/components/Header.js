@@ -1,5 +1,5 @@
-import React from "react"
-import logo from "../images/icon.webp"
+import React from "react";
+import logo from "../images/icon.webp";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

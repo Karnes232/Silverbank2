@@ -1,4 +1,4 @@
-import nextId from "react-id-generator"
+import nextId from "react-id-generator";
 
 export const items = [
   {
@@ -521,4 +521,4 @@ export const items = [
   //     width: 2,
   //   }
   // },
-].sort(() => Math.random() - 0.5)
+].sort(() => Math.random() - 0.5);

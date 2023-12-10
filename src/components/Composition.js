@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Composition = ({ image1, image2, image3 }) => {
   return (
@@ -22,7 +22,7 @@ const Composition = ({ image1, image2, image3 }) => {
         src={image3}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Composition
+export default Composition;

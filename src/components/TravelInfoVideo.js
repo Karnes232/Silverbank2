@@ -1,5 +1,5 @@
-import React from "react"
-import video from "../images/grandbay.mp4"
+import React from "react";
+import video from "../images/grandbay.mp4";
 
 const TravelInfoVideo = () => {
   return (
@@ -18,7 +18,7 @@ const TravelInfoVideo = () => {
         </video>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TravelInfoVideo
+export default TravelInfoVideo;

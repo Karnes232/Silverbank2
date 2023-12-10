@@ -1,7 +1,7 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 const Contact = () => {
-  const [message, setMessage] = useState(false)
+  const [message, setMessage] = useState(false);
   return (
     <section id="contact" className="section-book">
       <div className="row">
@@ -95,7 +95,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

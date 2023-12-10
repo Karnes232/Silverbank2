@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Boat = () => {
   return (
@@ -11,7 +11,7 @@ const Boat = () => {
         </h2>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Boat
+export default Boat;

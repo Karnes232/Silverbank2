@@ -1,10 +1,10 @@
-import * as React from "react"
-import "../scss/main.scss"
-import SEO from "../components/seo"
-import Helment from "react-helmet"
-import Navbar from "../components/Navbar"
-import Gallery from "../components/Gallery"
-import Footer from "../components/Footer"
+import * as React from "react";
+import "../scss/main.scss";
+import SEO from "../components/seo";
+import Helment from "react-helmet";
+import Navbar from "../components/Navbar";
+import Gallery from "../components/Gallery";
+import Footer from "../components/Footer";
 
 // markup
 const GalleryPage = () => {
@@ -23,7 +23,7 @@ const GalleryPage = () => {
       </main>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default GalleryPage
+export default GalleryPage;

@@ -1,4 +1,4 @@
-import nextId from "react-id-generator"
+import nextId from "react-id-generator";
 
 export const videos = [
   {
@@ -79,4 +79,4 @@ export const videos = [
     width: 1920,
     height: 1080,
   },
-].sort(() => Math.random() - 0.5)
+].sort(() => Math.random() - 0.5);

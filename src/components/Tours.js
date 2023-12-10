@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Tours = () => {
   return (
@@ -81,7 +81,7 @@ const Tours = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Tours
+export default Tours;

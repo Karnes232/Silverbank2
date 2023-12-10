@@ -1,8 +1,8 @@
-import React from "react"
-import Composition from "./Composition"
-import image1 from "../images/boat2-desk.webp"
-import image2 from "../images/boat3-desk.webp"
-import image3 from "../images/boat4-desk.webp"
+import React from "react";
+import Composition from "./Composition";
+import image1 from "../images/boat2-desk.webp";
+import image2 from "../images/boat3-desk.webp";
+import image3 from "../images/boat4-desk.webp";
 
 const BoatInfo = () => {
   return (
@@ -27,7 +27,7 @@ const BoatInfo = () => {
         <Composition image1={image1} image2={image2} image3={image3} />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BoatInfo
+export default BoatInfo;
