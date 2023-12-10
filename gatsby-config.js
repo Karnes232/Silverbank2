@@ -34,12 +34,7 @@ module.exports = {
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-offline",
-      options: {
-        precachePages: ["/*", "/travel-information/*", "/gallery/*"],
-      },
-    },
+    "gatsby-plugin-offline", 
     {
       resolve: "gatsby-plugin-manifest",
       options: {
