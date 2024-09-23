@@ -34,7 +34,7 @@ module.exports = {
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-offline", 
+    "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -52,10 +52,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",     path: "./src/images/",
+        name: "images",
+        path: "./src/images/",
       },
       __key: "images",
     },
   ],
-   
 };

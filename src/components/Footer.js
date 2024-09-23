@@ -41,8 +41,8 @@ const Footer = () => {
             </a>
           </p>
         </div>
-        <Signature />
       </div>
+      <Signature />
     </footer>
   );
 };
