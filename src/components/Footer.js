@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/icon.webp";
+import Signature from "./Signature";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -40,6 +41,7 @@ const Footer = () => {
             </a>
           </p>
         </div>
+        <Signature />
       </div>
     </footer>
   );
